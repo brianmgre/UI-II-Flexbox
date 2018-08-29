@@ -64,3 +64,236 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header{
+	display : flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	width: 1000px;
+	margin: 0 auto;
+
+
+}
+
+header .main-nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 700px;
+
+}
+
+header .main-nav a{
+	text-decoration: none;
+	color: lightgray;
+
+}
+
+.nav-header .logo1 {
+	display: flex;
+	height: auto;
+	align-self:flex-start;
+
+}
+
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.main-content{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+
+}
+
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+.container .main-content .tagline {
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+
+.container .main-content .tagline button {
+	font-size: 20px;
+}
+.features-about {
+	margin: 30px 0 30px 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.features-about .features {
+	padding-right: 6px;
+
+}
+
+.features-about .about {
+	padding-left: 6px;
+}
+
+.image1 .middle-img{
+	width:1000px;
+}
+
+.services-product{
+	margin: 30px 0 0 0;
+	padding-bottom: 50px;
+	border-bottom: 1px solid darkgray;
+	display: flex;
+	justify-content: space-between;
+}
+.services-product .services {
+	padding-right: 5px;
+
+}
+
+.services-product  .product {
+	padding: 0 5px 0 5px;
+	
+}
+
+.services-product  .vision {
+	padding-left: 5px;
+}	
+
+.contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contact .email{
+	padding-top: 20px;
+
+}
+
+footer {
+	text-align: center;
+}
+
+.service-content{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.services-header-img {
+	width: 1000px;
+	padding-top: 20px;
+}
+
+.services-dis {
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	padding: 40px 0;
+}
+
+.services-dis .h1-service {
+	font-size: 43px; 
+}
+
+.service-content .digital-ux {
+	display: flex;
+	justify-content: space-between;
+}
+
+.digital-design {
+	
+	margin-right: 5px;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+	margin-right: 20px;
+	background-color: lightgray;
+	width: 480px;
+
+}
+
+.digital-ui {
+	
+	margin-left: 5px;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+	margin-left: 20px;
+	background-color: lightgray;
+	width: 480px;
+
+}
+
+.service-content .marketing-web{
+	display: flex;
+	justify-content: space-between;
+}
+
+.dmarketing {
+	
+	margin-right: 5px;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 20px 20px 20px 0;
+	background-color: lightgray;
+	width: 480px;
+
+}
+
+.web-develop {
+	
+	margin-left: 5px;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+	margin-left: 20px;
+	background-color: lightgray;
+	width: 480px;
+	margin: 20px 0 20px 20px;
+
+}
+
+.service-content .ios-roid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ios-develop {
+	
+	margin-right: 5px;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 20px 20px 20px 0;
+	background-color: lightgray;
+	width: 480px;
+
+}
+
+.android-devel {
+	
+	margin-left: 5px;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+	margin-left: 20px;
+	background-color: lightgray;
+	width: 480px;
+	margin: 20px 0 20px 20px;
+
+}
+
+.facts {
+	display: felx;
+	border: 3px solid green;
+}
