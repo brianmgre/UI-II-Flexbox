@@ -198,6 +198,7 @@ footer {
 	align-content: flex-start;
 	flex-wrap: wrap;
 	padding: 40px 0;
+	border-bottom: 1px solid black;
 }
 
 .services-dis .h1-service {
@@ -207,10 +208,10 @@ footer {
 .service-content .digital-ux {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 40px;
 }
 
 .digital-design {
-	
 	margin-right: 5px;
 	flex-direction: column;
 	padding: 20px;
@@ -294,6 +295,27 @@ footer {
 }
 
 .facts {
-	display: felx;
-	border: 3px solid green;
+	display:flex;
+	border-top: 1px solid black;
+	justify-content: space-between;
+	margin-bottom: 40px;
+
+
+}
+
+.facts-service{
+	width: 480px;
+	margin: 20px 0 20px 0;
+}
+
+.services-info-img {
+	width: 480px;
+	margin: 20px 0 20px 0;
+
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+	
 }
