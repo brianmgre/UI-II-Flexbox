@@ -72,13 +72,14 @@ header{
 	align-content: flex-end;
 	width: 1000px;
 	margin: 0 auto;
+	padding-top: 20px
 
 
 }
 
 header .main-nav {
 	display: flex;
-	flex-flow: row wrap;
+	/* flex-flow: row wrap; */
 	justify-content: space-around;
 	align-items: center;
 	width: 700px;
